@@ -85,7 +85,7 @@ footer{
     align-items: center;
     font-family: 'Roboto', sans-serif;
     color: white;
-    background-color: rgb(34, 34, 34);
+    background-color: black
 
 }
 
@@ -97,4 +97,9 @@ footer{
 
 .links ul{
     text-decoration: none;
+}
+
+.pe h3, h4{
+    margin-top: 30px;
+    font-weight: bold ;
 }
