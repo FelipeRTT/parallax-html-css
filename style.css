@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+.section1{
+    background-image: url(images/image2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.naruto{
+    position: sticky;
+    top: 10px;
+    font-size: 100px;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+
+#textos{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    background-color: rgb(34, 34, 34);
+}
+
+#textos p{
+    color: white;
+    max-width: 70vw;
+    font-weight: bold;
+}
+
+
+.section3{
+    background-image: url(images/image3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.section5{
+    background-image: url(/images/image1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.desenvolvido{
+    width: 80px;
+    height: 80px;
+    background-image: url(/images/git.png);
+    background-size: cover;
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.desenvolvido:hover{
+    border: 2px solid blue;
+}
+
+footer{
+    display: flex;
+    padding: 50px 80px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: rgb(34, 34, 34);
+
+}
+
+.links ul li{
+    margin-top: 20px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.links ul{
+    text-decoration: none;
+}
