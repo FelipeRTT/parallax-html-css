@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     /* overflow-x: hidden; */
+    text-decoration: none;
 }
 
 .section1{
@@ -25,7 +26,7 @@
     top: 10px;
     font-size: 100px;
     font-family: 'Permanent Marker', cursive;
-
+    color: orangered;
 }
 
 
@@ -56,7 +57,7 @@
 }
 
 .section5{
-    background-image: url(/images/image1.png);
+    background-image: url("https://w.wallha.com/ws/13/nRQ3m9uL.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -65,10 +66,20 @@
     background-position: center;
 }
 
+.section-final{
+    background-image: url("https://wallpaperaccess.com/full/394052.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
 .desenvolvido{
     width: 80px;
     height: 80px;
-    background-image: url(/images/git.png);
+    background-image: url("https://cdn-icons-png.flaticon.com/512/25/25231.png");
     background-size: cover;
     position: fixed;
     right: 15px;
@@ -92,17 +103,25 @@ footer{
 
 }
 
+.links ul h4{
+    text-align: right;
+}
+
 .links ul li{
     margin-top: 20px;
     text-align: right;
-    text-decoration: none;
-}
-
-.links ul{
-    text-decoration: none;
+    text-decoration: beige;
+    text-decoration-style: none ;
+    color: orangered;
+    list-style: none;
 }
 
 .pe h3, h4{
     margin-top: 30px;
     font-weight: bold ;
+}
+
+.criador{
+    text-decoration: none;
+    color: orangered;
 }
